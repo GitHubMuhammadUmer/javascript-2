@@ -226,7 +226,9 @@
 // document.write(subject3 + "         " + TotalMarks + "        " +subject3mark + "         " + subject3Percentage + " %"+ "<br>");
 // document.write(" "+ " "+ " "+" "+ " "+ " "+" "+ " "+ " " +TotalMarksAllSubject + " "+ " "+ TotalObtainedM + + " "+ " " + TotalPercentage);
 
-// ______________Uer Input and Coditional Statment CH#9 TO 11____________________
+ 
+
+     // ______________Uer Input and Coditional Statment CH#9 TO 11____________________
 
 // ------------- Question No.1-------------------
 // var city = prompt("Enter City");
@@ -275,7 +277,44 @@
 // }
 
 // ------------- Question No.5-------------------
-
+  //Run this script, & check whether alert message would be
+             // displayed or not. Record the outputs.
+var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
+}
+ var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is true");
+}
+ var c = 12;
+if (c++ === 13){
+alert("condition 1 is true");
+}
+if (c === 13){
+alert("condition 2 is true");
+}
+if (++c < 14){
+alert("condition 3 is true");
+}
+if(c === 14){
+alert("condition 4 is true");
+}
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+if (true){
+alert("True");
+}
+if (false){
+alert("False");
+}
+if("car" < "cat"){
+  alert("car is smaller than cat");
+  }
 // ------------- Question No.6-------------------
 
 // var subjectMark1 = +prompt("Enter First Subject Marks");
@@ -310,7 +349,20 @@
 //       )
 //       }
       
+// ------------- Question No.7-------------------
 
+// var SecretNumber = 5;
+// var guessNumber = prompt("Enter A Guess Number");
+// if(SecretNumber ==  guessNumber ){
+//   document.write("Bingo! Correct answer");
+// }
+// else if( guessNumber==SecretNumber+1 )
+// {
+// document.write("Close enough to the correct answer")
+// }
+// else{
+//   document.write("Gueess Number Is Wrong");
+// }
 // ------------- Question No.8-------------------
 
 // var whether = prompt("Enter Number");
@@ -323,7 +375,54 @@
 
 // ------------- Question No.9-------------------
 
-var num = prompt("Enter Number");
+// var num = prompt("Enter Number");
+// if(num % 2 == 0){
+//   document.write(num + " "+ "Is Even Number");
+// }else{
+//   document.write(num + " "+ "Is Odd Number");
+// }
 
 
-// ------------- Question No.9-------------------
+// ------------- Question No.10-------------------
+
+// var T = prompt("Enter a temperature");
+// if(T > 40){
+//   document.write("It is too hot outside");
+// }
+// else if(T > 30){
+//   document.write("The Weather today is Normal");
+// }
+
+// else if(T > 20){
+//   document.write("Today’s Weather is cool");
+// }
+// else if(T > 10){
+//   document.write("“OMG! Today’s weather is so Cool");
+// }
+// else{
+//   document.write("“weather is so so Cool");
+// }
+
+
+// ------------- Question No.11-------------------
+
+// var num1 = prompt("Enter First Number");
+// var num2 = prompt("Enter First Number");
+// var Operation  = prompt("+, -, *, /, %");
+// var result;
+// if( Operation == "+"){
+//   result = num1+num2;
+// }
+// else if( Operation == "-"){
+//   result = num1-num2;
+// }
+// else if( Operation == "*"){
+//   result = num1*num2;
+// }
+// else if( Operation == "/"){
+//   result = num1/num2;
+// }
+// else if( Operation == "%"){
+//   result = num1%num2;
+// }
+// document.write("Result :" + " "+ result);
