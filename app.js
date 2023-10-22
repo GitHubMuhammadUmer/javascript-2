@@ -270,7 +270,7 @@
 
 // ------------- Question No.4-------------------
 
-// var fuel =prompt("Enter fue in car in litres");
+// var fuel = +prompt("Enter fue in car in litres");
 // if(fuel < 0.25){
 // document.write("Please refill the fuel in your car");
 // }else{
@@ -390,7 +390,7 @@
 // ------------- Question No.7-------------------
 
 // var SecretNumber = 5;
-// var guessNumber = prompt("Enter A Guess Number");
+// var guessNumber = +prompt("Enter A Guess Number");
 // if(SecretNumber ==  guessNumber ){
 //   document.write("Bingo! Correct answer");
 // }
@@ -403,7 +403,7 @@
 // }
 // ------------- Question No.8-------------------
 
-// var whether = prompt("Enter Number");
+// var whether = +prompt("Enter Number");
 // if( whether % 3 == 0 ){
 // document.write(whether + " " + "is divisible by 3")
 // }
@@ -413,7 +413,7 @@
 
 // ------------- Question No.9-------------------
 
-// var num = prompt("Enter Number");
+// var num = +prompt("Enter Number");
 // if(num % 2 == 0){
 //   document.write(num + " "+ "Is Even Number");
 // }else{
@@ -423,7 +423,7 @@
 
 // ------------- Question No.10-------------------
 
-// var T = prompt("Enter a temperature");
+// var T = +prompt("Enter a temperature");
 // if(T > 40){
 //   document.write("It is too hot outside");
 // }
@@ -444,9 +444,9 @@
 
 // ------------- Question No.11-------------------
 
-// var num1 = prompt("Enter First Number");
-// var num2 = prompt("Enter First Number");
-// var Operation  = prompt("+, -, *, /, %");
+// var num1 = +prompt("Enter First Number");
+// var num2 = +prompt("Enter First Number");
+// var Operation  = +prompt("+, -, *, /, %");
 // var result;
 // if( Operation == "+"){
 //   result = num1+num2;
