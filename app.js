@@ -12,23 +12,23 @@
 // var num1 = 3;
 // var num2 = 5;
 // var total = num1 - num2;
-// document.write("Sum of 3 and 5 is" + " " + total);
+// document.write("Subtraction of 3 and 5 is" + " " + total);
 
 // var num1 = 3;
 // var num2 = 5;
 // var total = num1 * num2;
-// document.write("Sum of 3 and 5 is" + " " + total);
+// document.write("Multiplication of 3 and 5 is" + " " + total);
 
 
 // var num1 = 3;
 // var num2 = 5;
 // var total = num1 / num2;
-// document.write("Sum of 3 and 5 is" + " " + total);
+// document.write("Division of 3 and 5 is" + " " + total);
 
 // var num1 = 3;
 // var num2 = 5;
 // var total = num1 % num2;
-// document.write("Sum of 3 and 5 is" + " " + total);
+// document.write("Modulus of 3 and 5 is" + " " + total);
 
 
 // ------------- Question No.3-------------------
@@ -446,7 +446,7 @@
 
 // var num1 = +prompt("Enter First Number");
 // var num2 = +prompt("Enter First Number");
-// var Operation  = +prompt("+, -, *, /, %");
+// var Operation  = prompt("+, -, *, /, %");
 // var result;
 // if( Operation == "+"){
 //   result = num1+num2;
